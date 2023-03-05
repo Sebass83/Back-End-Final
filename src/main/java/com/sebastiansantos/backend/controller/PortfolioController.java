@@ -55,7 +55,7 @@ public class PortfolioController {
    
     @GetMapping("/portfolio/{id}")
     @ResponseBody
-    @CrossOrigin(origins = "http://localhost:4200/", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT})
+    @CrossOrigin(origins = "https://sebass-dev.web.app", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT})
     
     public PortfolioDTO obtenerPortfolio(@PathVariable int id) {
         
