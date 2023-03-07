@@ -72,7 +72,7 @@ public class WebSecurityConfig {
     @Bean
     CorsConfigurationSource corsConfigurationSource(){
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("https://sebass-dev.web.app"));
+        configuration.setAllowedOrigins(Arrays.asList("https://sebastian-santos.web.app"));
         configuration.setAllowedMethods(Arrays.asList("*"));
         configuration.addAllowedHeader("*");
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

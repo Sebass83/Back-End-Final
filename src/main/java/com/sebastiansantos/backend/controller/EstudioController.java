@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://sebass-dev.web.app", methods= {RequestMethod.GET,RequestMethod.POST})
+@CrossOrigin(origins = "https://sebastian-santos.web.app", methods= {RequestMethod.GET,RequestMethod.POST})
 public class EstudioController {
     @Autowired
     private IEstudioService estudioService;

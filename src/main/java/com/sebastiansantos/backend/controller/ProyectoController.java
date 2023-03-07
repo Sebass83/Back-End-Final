@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://sebass-dev.web.app", methods= {RequestMethod.GET,RequestMethod.POST})
+@CrossOrigin(origins = "https://sebastian-santos.web.app/", methods= {RequestMethod.GET,RequestMethod.POST})
 public class ProyectoController {
         @Autowired
         private IProyectoService proyectService;
